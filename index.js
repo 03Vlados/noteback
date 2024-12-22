@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 8000;
 // middleware
 app.use(
   cors({
-    origin: 'https://w3-front.onrender.com',
+    origin: 'https://notes-5tu8.onrender.com',
     credentials: true,
   })
 );
